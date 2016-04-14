@@ -1,0 +1,98 @@
+.Button {
+  display: inline-block;
+  border-radius: 4px;
+  font: 18px/70px 'Open Sans';
+  min-width: 270px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+  .Button--small {
+    font: 15px/54px 'Open Sans';
+    min-width: 200px;
+  }
+  .Button--big {
+    font:bold 16px/70px 'Open Sans';
+  }
+  .Button--full {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  /* button red */
+  .Button--red {
+    border: 1px solid #EB2224;
+  }
+  .Button--red span {
+    color: #EB2224;
+  }
+  .Button--red:hover {
+    background: #EB2224;
+  }
+  .Button--red:hover > span {
+    color: #fff;
+  }
+
+
+  /* button grey */
+  .Button--grey {
+    border: 1px solid #CDCDCD;
+    background: #fff
+  }
+  .Button--grey span {
+    color: #EB2224;
+  }
+  .Button--grey:hover {
+    background: #EB2224;
+  }
+  .Button--grey:hover > span {
+    color: #fff;
+  }
+
+  /* button white */
+  .Button--white {
+    border: 1px solid #fff;
+  }
+  .Button--white span {
+    color: #fff;
+  }
+  .Button--white:hover {
+    border: 1px solid #EB2224;
+    background: #EB2224;
+  }
+  .Button--white:hover > span {
+    color: #fff;
+  }
+
+
+  /* button fill red */
+  .Button--fill.Button--red {
+    border: 1px solid #EB2224;
+    background: #EB2224;
+  }
+  .Button--fill.Button--red span {
+    color: #fff;
+  }
+  .Button--fill.Button--red:hover {
+    border: 1px solid #EB2224;
+    background: #fff;
+  }
+  .Button--fill.Button--red:hover > span {
+    color: #EB2224;
+  }
+
+  /* button fill purple */
+  .Button--fill.Button--purple {
+    border: 1px solid #322338;
+    background: #322338;
+  }
+  .Button--fill.Button--purple span {
+    color: #fff;
+  }
+  .Button--fill.Button--purple:hover {
+    border: 1px solid #322338;
+    background: #fff;
+  }
+  .Button--fill.Button--purple:hover > span {
+    color: #322338;
+  }

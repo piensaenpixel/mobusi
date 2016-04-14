@@ -1,0 +1,171 @@
+.header {
+  background: rgba(255, 255, 255, .5);
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.section {
+  position: relative;
+  padding: 160px 0 200px 0;
+  text-align: center;
+}
+
+.section--full {
+  height: 100vh;
+  padding: 0;
+}
+
+.section--video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #666
+}
+
+.section--grey {
+  background: #f2f2f2;
+}
+.section--dark {
+  background: #12111a;
+}
+
+
+.list-3col {
+  display: flex;
+  margin: 0 -35px;
+}
+.list-3col-item {
+  margin: 0 35px;
+  flex: 1;
+}
+
+.list-3col--full {
+  margin: 0 -13px;
+}
+.list-3col--full .list-3col-item {
+  margin: 0 13px;
+}
+
+/* Last news */
+.news-item {
+  background: #fff;
+  border-bottom: 5px solid #e5e5e5;
+  position: relative;
+}
+.news-media {
+  margin-bottom: 50px;
+}
+.news-media img {
+  width: 100%;
+  display: block;
+}
+.news-item .Button {
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  right: 50%;
+  margin-left: -100px;
+}
+.news-item-txt {
+  padding: 20px 20px 90px 20px;
+  text-align: left;
+}
+.news-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: 'Open Sans';
+  margin-bottom: 20px;
+}
+.news-title a {
+  text-decoration: none;
+}
+.news-title a:hover {
+  text-decoration: underline;
+}
+.news-author {
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: 'Open Sans';
+  color: #808080;
+}
+.news-txt {
+  font-size: 15px;
+  line-height: 21px;
+  font-family: 'Open Sans';
+}
+.list-news {
+  align-items: flex-start;
+}
+.list-3col--full .list-news--margin {
+  margin-top: 100px;
+}
+
+/* video */
+video { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+.section-video-text {
+  position: relative;
+  z-index: 2;
+}
+
+/* form */
+.form-Contact {
+  max-width: 460px;
+  margin: 0 auto;
+}
+.form-Contact-item {
+  display: block;
+  margin-bottom: 20px;
+  text-align: left
+}
+.form-Contact-item:last-child {
+  margin-bottom: 0;
+}
+.form-Contact-itemInput {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px ;
+  width: 100%;
+  padding: 20px 24px;
+  border: 1px solid #CDCDCD;
+  border-radius: 2px;
+  font: 16px 'Open Sans';
+  -webkit-transition: border 300ms ease-in;
+  transition: border 300ms ease-in;
+}
+input.form-Contact-itemInput:focus,
+textarea.form-Contact-itemInput:focus {
+  outline: none;
+  border: 1px solid #4AC3B9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+input.form-Contact-itemInput.is-error,
+textarea.form-Contact-itemInput.is-error {
+  outline: none;
+  border: 1px solid #EB2224;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+
+
+
