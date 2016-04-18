@@ -18,6 +18,10 @@
     width: 100%;
     min-width: 100%;
   }
+  .Button--xsmall {
+    font: 14px/50px 'Open Sans';
+    min-width: 150px;
+  }
 
   /* button red */
   .Button--red {
