@@ -12,6 +12,14 @@
   padding: 160px 0 200px 0;
   text-align: center;
 }
+.section--noPaddingBottom {
+  padding-bottom: 0;
+}
+.section--small {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+}
 
 .section--full {
   height: 100vh;
@@ -38,6 +46,7 @@
   margin: 0 -35px;
 }
 .list-3col-item {
+  padding-top: 266px;
   margin: 0 35px;
   flex: 1;
 }
@@ -130,7 +139,7 @@ video {
 /* form */
 .form-Contact {
   max-width: 460px;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 .form-Contact-item {
   display: block;
@@ -167,5 +176,62 @@ textarea.form-Contact-itemInput.is-error {
 }
 
 
+/* jobs */
+.section-jobs {
+  margin-top: 110px;
+}
+.list-jobs {
+  width: 570px;
+}
+.list-jobs-item {
+  display: flex;
+  margin-bottom: 44px;
+}
+.list-jobs-txt {
+  width: 325px;
+  text-align: left;
+  padding-right: 40px;
+  margin-right: 40px;
+  border-right: 1px solid #fff;
+}
+
+.list-jobs-title {
+  font: bold 28px 'Open Sans';
+  color: #fff;
+}
+.list-jobs-description {
+  font: 23px 'Open Sans';
+  font-style: italic;
+  color: #FFEF00;
+}
+.list-jobs-action {
+  padding: 24px 0;
+}
+
+/* publishers */
+.section-publishers-figure {
+  margin-top: 850px;
+}
+.section-publishers-info {
+  margin-bottom: 194px;
+  font: 23px 'Open Sans';
+}
+
+/* advertirsers */
+.section-advertisers-figure {
+  margin-top: 680px;
+}
+.section-advertisers-info {
+  margin-bottom: 150px;
+  font: 23px 'Open Sans';
+}
+
+/* last */
+.section-last {
+  padding-bottom: 280px;
+}
+.section-last .list-3col-item strong {
+  color: #fff;
+}
 
 
