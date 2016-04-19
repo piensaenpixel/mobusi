@@ -141,9 +141,9 @@
       </section>
 
 
-      <section class="section section--grey">
-        <h2 class="tit-Section"><span>LAST NEWS</span></h2>
-        <div class="u-inner">
+      <section class="section section-lastNews">
+        <h2 class="tit-Section is-whiteFull"><span>LAST NEWS</span></h2>
+        <div class="u-inner section-lastNews-inner">
           <ul class="list-3col list-3col--full list-news">
             <li class="list-3col-item news-item">
               <div class="news-media">
@@ -194,12 +194,18 @@
               </a>
             </li>
           </ul>
+          <div class="section-lastNews-more">
+            <div class="section-lastNews-moreCircle">
+              <a href="#">+</a>
+            </div>
+            <p class="section-lastNews-moreText">More news</p> 
+          </div>
         </div>
       </section>
 
 
 
-      <section class="section">
+      <section class="section section-team">
         <h2 class="tit-Section"><span>Team</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -283,6 +289,7 @@
           <p class="txt-Default is-grey is-bold"><strong>Get in touch and let us boost your businnes NOW!</strong></p>
         </div>
         <form class="form-Contact">
+          <p class="form-txt-error">Oops, revisa los campos marcados en rojo por favor.</p>
           <label class="form-Contact-item">
             <input class="form-Contact-itemInput" type="text" name="Name" placeholder="Type your name">
           </label>
@@ -305,24 +312,30 @@
 
 
       <section class="section section-cities">
-        <ul class="city-inner">
-          <li class="city-item">
-            <h2 class="city-item-title is-white">Madrid</h2>
-            <p class="city-direction">c/Quintana 2, Planta 2 - Puerta 1<br/>28008, Madrid(España).</p>
-            <ul class="city-contact">
-              <li class="city-contact-item">+34 911 610 113</li>
-              <li class="city-contact-item">info@mobusi.com</li>
-            </ul>
-          </li>
-          <li class="city-item">
-            <h2 class="city-item-title is-white">Mexico</h2>
-            <p class="city-direction">c/Quintana 2, Planta 2 - Puerta 1<br/>28008, Madrid(España).</p>
-            <ul class="city-contact">
-              <li class="city-contact-item">+34 911 610 113</li>
-              <li class="city-contact-item">info@mobusi.com</li>
-            </ul>
-          </li>
-        </ul>
+        <div class="city-inner">
+          <div class="city-item">
+            <div class="section-image section-image--madrid"></div>
+            <div class="city-item-text">
+              <h2 class="city-item-title is-white">Madrid</h2>
+              <p class="city-direction">c/Quintana 2, Planta 2 - Puerta 1<br/>28008, Madrid(España).</p>
+              <ul class="city-contact">
+                <li class="city-contact-item">+34 911 610 113</li>
+                <li class="city-contact-item">info@mobusi.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="city-item">
+            <div class="section-image section-image--mexico"></div>
+            <div class="city-item-text">
+              <h2 class="city-item-title is-white">Mexico</h2>
+              <p class="city-direction">c/Quintana 2, Planta 2 - Puerta 1<br/>28008, Madrid(España).</p>
+              <ul class="city-contact">
+                <li class="city-contact-item">+34 911 610 113</li>
+                <li class="city-contact-item">info@mobusi.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
 

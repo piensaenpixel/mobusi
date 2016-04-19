@@ -65,6 +65,14 @@
   background: rgba(255, 255, 255, .10);
 }
 
+.tit-Section.is-whiteFull > span {
+  color: #fff;
+}
+.tit-Section.is-whiteFull::before,
+.tit-Section.is-whiteFull::after {
+  background: rgba(255, 255, 255, 1);
+}
+
 
 
 
