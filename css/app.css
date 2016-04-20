@@ -196,7 +196,20 @@ textarea.form-Contact-itemInput.is-error {
 /* jobs */
 .section-jobs {
   margin-top: 110px;
-  background: #2F2A3B
+  background: url(../img/work-with-us-bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+.section-jobs-media {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+}
+.section-jobs-media img {
+  display: block;
+}
+.section-jobs-txt {
+  position: relative;
 }
 .list-jobs {
   width: 570px;
@@ -227,17 +240,33 @@ textarea.form-Contact-itemInput.is-error {
 }
 
 /* publishers */
-.section-publishers-figure {
-  margin-top: 850px;
+.section-publishers-media {
+  margin-top: 85px;
+  margin-bottom: -30px;
+}
+.section-publishers-media img {
+  display: block;
+  margin: 0 auto;
 }
 .section-publishers-info {
   margin-bottom: 194px;
   font: 23px 'Open Sans';
 }
+.section-publishers-inner {
+  background: url(../img/publishers-map.png) no-repeat center 483px;
+}
 
 /* advertirsers */
-.section-advertisers-figure {
-  margin-top: 680px;
+.section-advertisers-inner {
+  margin-top: 100px;
+  background: url(../img/advertisers-map.png) no-repeat center 283px;
+}
+.section-advertisers-media {
+  margin-bottom: -48px;
+}
+.section-advertisers-media img {
+  display: block;
+  margin: 0 auto;
 }
 .section-advertisers-info {
   margin-bottom: 150px;
@@ -247,12 +276,18 @@ textarea.form-Contact-itemInput.is-error {
 /* last */
 .section-last {
   padding-bottom: 280px;
+  background-image: url(../img/last-month-bg.png);
+  background-size: cover;
 }
 .section-last .list-3col-item {
-  padding-top: 266px;
+  padding-top: 60px;
 }
 .section-last .list-3col-item strong {
   color: #fff;
+}
+.section-last .section-last-media img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* cities */
