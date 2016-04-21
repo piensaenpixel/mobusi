@@ -10,14 +10,30 @@
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <title>Mobusi</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>  
+    <script src="js/app.js"></script>
     <script src="https://use.typekit.net/wgn8rdu.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   </head>
 
   <body>
+  <div class="menu">
+    <div id="menu-center">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#advertisers" class="">Advertirsers</a></li>
+            <li><a href="#publishers" class="">Publishers</a></li>
+            <li><a href="#" class="">Our Stats</a></li>
+            <li><a href="#contact" class="">Contact</a></li>
+        </ul>
+    </div>
+  </div>
+
+
 
     <header class="header">
       mobusi
@@ -42,7 +58,7 @@
     </header>
     
     <main>
-      <section class="section section--full section--video">
+      <section class="section section--full section--video" id="home">
           <video autoplay="" loop="" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid">
             <source src="videos/polina.webm" type="video/webm">
             <source src="videos/polina.mp4" type="video/mp4">
@@ -60,7 +76,7 @@
       </section>
 
 
-      <section class="section section-last">
+      <section class="section section-last" id="last">
         <h2 class="tit-Section is-white"><span>Last Month</span></h2>
         <div class="u-inner">
           <ul class="list-3col">
@@ -93,7 +109,7 @@
         <a href="#" class="section-top-Link"></a>
       </div>
 
-      <section class="section section-advertisers">
+      <section class="section section-advertisers" id="advertisers">
         <h2 class="tit-Section"><span>Advertisers</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -111,12 +127,12 @@
       </section>
 
 
-      <section class="section">
+      <section class="section" id="integrated">
         integrated with
       </section>
 
 
-      <section class="section section--dark">
+      <section class="section section--dark" id="more-than">
         more than
         <a href="#" class="Button Button--outline Button--white">
           <span>More Info</span>
@@ -124,7 +140,7 @@
       </section>
 
 
-      <section class="section section-publishers">
+      <section class="section section-publishers" id="publishers">
         <h2 class="tit-Section"><span>Publishers</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -142,7 +158,7 @@
       </section>
 
 
-      <section class="section section-lastNews">
+      <section class="section section-lastNews" id="last-news">
         <h2 class="tit-Section is-whiteFull"><span>LAST NEWS</span></h2>
         <div class="u-inner section-lastNews-inner">
           <ul class="list-3col list-3col--full list-news">
@@ -206,7 +222,7 @@
 
 
 
-      <section class="section section-team">
+      <section class="section section-team" id="team">
         <h2 class="tit-Section"><span>Team</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -214,7 +230,7 @@
       </section>
 
 
-      <section class="section section--noPaddingBottom">
+      <section class="section section--noPaddingBottom" id="work">
         <h2 class="tit-Section"><span>Work with us</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -286,7 +302,7 @@
       </section>
 
 
-      <section class="section">
+      <section class="section" id="contact">
         <h2 class="tit-Section"><span>Contact us</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey u-vSpace">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
