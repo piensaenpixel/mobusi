@@ -32,7 +32,7 @@
 }
 
 .tit-Section {
-  font: bold 60px/81px 'Helvetica';
+  font: bold 60px/81px 'sofia-pro';
   position: relative;
   text-transform: uppercase;
   display: flex;
@@ -97,6 +97,7 @@
 .number {
   font-size: 144px;
   line-height: 196px;
-  font-family: 'Open Sans';
+  font-family: 'sofia-pro';
+  font-weight: bold;
 }
 
