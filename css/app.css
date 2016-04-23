@@ -250,7 +250,7 @@ textarea.form-Contact-itemInput.is-error {
 }
 .section-publishers-info {
   margin-bottom: 194px;
-  font: 23px 'Open Sans';
+  font: 23px 'sofia-pro';
 }
 .section-publishers-inner {
   background: url(../img/publishers-map.png) no-repeat center 483px;
@@ -270,7 +270,7 @@ textarea.form-Contact-itemInput.is-error {
 }
 .section-advertisers-info {
   margin-bottom: 150px;
-  font: 23px 'Open Sans';
+  font: 23px 'sofia-pro';
 }
 
 /* last */
@@ -367,7 +367,7 @@ textarea.form-Contact-itemInput.is-error {
   text-align: center;
 }
 .section-video-startText {
-  font: 18px 'Open Sans';
+  font: 18px 'sofia-pro';
   color: #fff;
   margin-top: 20px;
 }
@@ -425,7 +425,7 @@ textarea.form-Contact-itemInput.is-error {
   margin-left: -88px;
 }
 .section-lastNews-moreText {
-  font: 18px 'Open Sans';
+  font: 18px 'sofia-pro';
   color: #000;
   margin-top: 20px;
 }
@@ -452,3 +452,69 @@ textarea.form-Contact-itemInput.is-error {
 /* section team */
 .section-team {
   padding-top: 233px;
+}
+
+
+
+/* footer */
+.footer {
+  background: #1B1B22;
+}
+
+.footer-inner {
+  display: flex;
+  padding: 110px 0;
+  justify-content: center;
+}
+.footer-links {
+  border-top: 1px solid #27272D;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: 15px 'Open Sans';
+}
+.footer-copy {
+  color: #fff;
+}
+.footer-copy a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-copy a:hover {
+  text-decoration: underline;
+}
+
+.footer-linksSocial {
+  display: flex;
+  align-items: center;
+}
+.footer-linksSocial p {
+  color: #fff;
+  margin-right: 24px;
+}
+
+.footer-linksSocialList {
+  display: flex;
+  align-items: center;
+}
+.footer-linksSocialListItem {
+  margin-right: 24px;
+}
+.footer-linksSocialListItem a {
+  text-decoration: none;
+}
+.footer-linksSocialListItem a:hover {
+  text-decoration: underline;
+}
+.footer-linksSocialListItem .is-twitter {
+  color: #48ABF6;
+}
+.footer-linksSocialListItem .is-facebook {
+  color: #3B54A6;
+}
+
+.footer-linksSocialListItem .is-linkedin {
+  color: #4E97D4;
+}
+

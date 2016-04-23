@@ -98,6 +98,16 @@
   font-size: 144px;
   line-height: 196px;
   font-family: 'sofia-pro';
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.number sup {
+  font-size: 34px;
+  font-weight: normal;
+  font-family: 'sofia-pro';
+  vertical-align: text-top;
+  color: #EB2224;
+  margin-top: -23px
 }
 

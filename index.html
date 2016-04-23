@@ -17,46 +17,23 @@
     <script src="js/app.js"></script>
     <script src="https://use.typekit.net/wgn8rdu.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   </head>
 
   <body>
-  <div class="menu">
-    <div id="menu-center">
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#advertisers" class="">Advertirsers</a></li>
-            <li><a href="#publishers" class="">Publishers</a></li>
-            <li><a href="#" class="">Our Stats</a></li>
-            <li><a href="#contact" class="">Contact</a></li>
-        </ul>
-    </div>
-  </div>
 
 
-
-    <header class="header">
-      mobusi
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Advertisers</li>
-          <li>Publishers</li>
-          <li>Our stats</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
-        <ul>
-          <li>ES</li>
-          <li>EN</li>
-          <li>FR</li>
-          <li>KR</li>
-          <li>PT</li>
-          <li>RU</li>
-        </ul>
-      </nav>
+    <header id="header">
+        <h1 class="header-logo"></h1>
+        <nav>
+          <ul class="navigation">
+              <li class="navigation-item"><a class="navigation-itemLink is-active" href="#home">Home</a></li>
+              <li class="navigation-item"><a href="#advertisers" class="navigation-itemLink">Advertirsers</a></li>
+              <li class="navigation-item"><a href="#publishers" class="navigation-itemLink">Publishers</a></li>
+              <li class="navigation-item"><a href="#" class="navigation-itemLink">Our Stats</a></li>
+              <li class="navigation-item"><a href="#contact" class="navigation-itemLink">Contact</a></li>
+          </ul>
+        </nav>
     </header>
-    
     <main>
       <section class="section section--full section--video" id="home">
           <video autoplay="" loop="" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid">
@@ -84,7 +61,7 @@
               <div class="section-last-media">
                 <img src="img/last-month01.png" alt="01" />
               </div>
-              <h2 class="number is-red is-extraBold">553</h2>
+              <h2 class="number is-red is-extraBold">553<sup>M</sup></h2>
               <p class="txt-Default--small is-grey-light">February was a great month, with <strong>2.629.308.012 mobile clicks</strong> being sent to our system. With the increasing number of publishers we hope to get even more this month!</p>
             </li>
             <li class="list-3col-item">
@@ -360,14 +337,23 @@
 
 
       <footer class="footer">
-        Footer
+        <div class="footer-inner">
+          <span class="header-logo"></span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-linksSocial">
+            <p>Follow us</p>
+            <ul class="footer-linksSocialList"> 
+              <li class="footer-linksSocialListItem"><a href="#" class="is-twitter">twitter</a></li>
+              <li class="footer-linksSocialListItem"><a href="#" class="is-facebook">facebook</a></li>
+              <li class="footer-linksSocialListItem"><a href="#" class="is-linkedin">linkedin</a></li>
+            </ul>
+          </div>
+          <p class="footer-copy">@2015 mobusi | <a href="#">Privacy policy</a></p>
+        </div>
       </footer>
 
     </main>
-
-
-    <script src="https://use.typekit.net/wpv5xkp.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   </body>
 </html>
