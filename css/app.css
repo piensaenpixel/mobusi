@@ -166,7 +166,8 @@ video {
 .form-Contact-item:last-child {
   margin-bottom: 0;
 }
-.form-Contact-itemInput {
+.form-Contact-itemInput,
+.form-Contact-itemSelect {
   -webkit-appearance: none;
   appearance: none;
   border: 1px ;
@@ -177,16 +178,20 @@ video {
   font: 16px 'Open Sans';
   -webkit-transition: border 300ms ease-in;
   transition: border 300ms ease-in;
+  background: none;
+  color: #A9A9A9;
 }
 input.form-Contact-itemInput:focus,
-textarea.form-Contact-itemInput:focus {
+textarea.form-Contact-itemInput:focus, 
+select.form-Contact-itemSelect:focus {
   outline: none;
   border: 1px solid #4AC3B9;
   box-shadow: 0 0 2px rgba(0, 0, 0, .2);
 }
 
 input.form-Contact-itemInput.is-error,
-textarea.form-Contact-itemInput.is-error {
+textarea.form-Contact-itemInput.is-error, 
+select.form-Contact-itemSelect.is-error {
   outline: none;
   border: 1px solid #EB2224;
   box-shadow: 0 0 2px rgba(0, 0, 0, .2);
@@ -194,6 +199,14 @@ textarea.form-Contact-itemInput.is-error {
 
 
 /* jobs */
+.jobs-carousel {
+  width: 560px;
+  overflow: hidden;
+  margin-left: -10px;
+}
+.jobs-carousel .slick-slide {
+  padding: 0 10px;
+}
 .section-jobs {
   margin-top: 110px;
   background: url(../img/work-with-us-bg.jpg);
@@ -212,7 +225,7 @@ textarea.form-Contact-itemInput.is-error {
   position: relative;
 }
 .list-jobs {
-  width: 570px;
+  width: 560px;
 }
 .list-jobs-item {
   display: flex;
@@ -518,3 +531,80 @@ textarea.form-Contact-itemInput.is-error {
   color: #4E97D4;
 }
 
+.section-integrated {
+  padding: 300px 0 100px 0;
+  background: #322338 url(../img/bg-integrated.svg) no-repeat;
+  background-size: 103% auto;
+}
+
+.section-more {
+  padding: 220px 0;
+  background: #322338;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.section-moreTxt {
+  width: 50%;
+  max-width: 50%;
+  text-align: left;
+}
+
+.section-moreTitle {
+  font: 200 57px/58px 'sofia-pro';
+  margin-bottom: 60px;
+  padding-right: 31%;
+  text-transform: uppercase;
+}
+.section-integrated-Circle {
+  width: 180px;
+  height: 180px;
+  background: #E5E5E5;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  top: 26px;
+}
+.section-integrated-Circle > span {
+  font: 300 60px/90px 'Open Sans';
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background: #EB2224;
+  border-radius: 50%;
+  margin-top: 45px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots > li {
+  margin-left: 8px;
+}
+.slick-dots > li:first-child {
+  margin-left: 0;
+}
+.slick-dots > li button{
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: rgba(255, 255, 255, .20);
+}
+.slick-dots > li.slick-active button{
+  background: rgba(255, 255, 255, 1);
+}

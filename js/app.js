@@ -1,6 +1,11 @@
 
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
+    $('.jobs-carousel').slick({
+        dots: true,
+        arrows: false
+    });
+
     
     $(window).scroll(function(){
         var scrollPosition = $(document).scrollTop();

@@ -4,6 +4,8 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/helpers.css">
@@ -11,9 +13,11 @@
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <title>Mobusi</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>  
+    <!-- carousel -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+    <title>Mobusi</title>
     <script src="js/app.js"></script>
     <script src="https://use.typekit.net/wgn8rdu.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -104,16 +108,23 @@
       </section>
 
 
-      <section class="section" id="integrated">
-        integrated with
+      <section class="section section-integrated" id="integrated">
+        <div class="section-integrated-Circle">
+          <span></span>
+        </div>
+        <h2 class="tit-Section is-white"><span>Integrated with</span></h2>
       </section>
 
 
-      <section class="section section--dark" id="more-than">
-        more than
-        <a href="#" class="Button Button--outline Button--white">
-          <span>More Info</span>
-        </a>
+      <section class="section section-more" id="more-than">
+
+        <div class="section-moreTxt">
+          <h2 class="section-moreTitle is-white">More than <span class="is-bold is-green">20.000 publishing partners</span> and <span class="is-bold is-white">5.000 advertirsers</span> to date in Europe and South America.</h2>
+
+          <a href="#" class="Button Button--outline Button--white">
+            <span>More Info</span>
+          </a>
+        </div>
       </section>
 
 
@@ -217,61 +228,139 @@
             <img src="img/work-with-us-siluette.png" />
           </div>
           <div class="u-inner section-jobs-txt">
-            <ul class="list-jobs">
-              <li class="list-jobs-item">
-                <div class="list-jobs-txt">
-                  <h2 class="list-jobs-title">Trafficker trainne</h2>
-                  <p class="list-jobs-description">For Mexico</p>
-                </div>
-                <div class="list-jobs-action">
-                  <a href="#" class="Button Button--outline Button--white Button--xsmall">
-                    <span>VIEW OFFER</span>
-                  </a>
-                </div>
+            <ul class="jobs-carousel">
+              <li>
+                <ul class="list-jobs">
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Trafficker trainne</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Sales New Business Trainne</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Senior PHP Developer</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Senior PHP Developer</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">RTB Internship</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
               </li>
-              <li class="list-jobs-item">
-                <div class="list-jobs-txt">
-                  <h2 class="list-jobs-title">Sales New Business Trainne</h2>
-                  <p class="list-jobs-description">For Mexico</p>
-                </div>
-                <div class="list-jobs-action">
-                  <a href="#" class="Button Button--outline Button--white Button--xsmall">
-                    <span>VIEW OFFER</span>
-                  </a>
-                </div>
+              <li>
+                <ul class="list-jobs">
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Trafficker trainne</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Sales New Business Trainne</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Senior PHP Developer</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Senior PHP Developer</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">RTB Internship</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
               </li>
-              <li class="list-jobs-item">
-                <div class="list-jobs-txt">
-                  <h2 class="list-jobs-title">Senior PHP Developer</h2>
-                  <p class="list-jobs-description">For Mexico</p>
-                </div>
-                <div class="list-jobs-action">
-                  <a href="#" class="Button Button--outline Button--white Button--xsmall">
-                    <span>VIEW OFFER</span>
-                  </a>
-                </div>
-              </li>
-              <li class="list-jobs-item">
-                <div class="list-jobs-txt">
-                  <h2 class="list-jobs-title">Senior PHP Developer</h2>
-                  <p class="list-jobs-description">For Mexico</p>
-                </div>
-                <div class="list-jobs-action">
-                  <a href="#" class="Button Button--outline Button--white Button--xsmall">
-                    <span>VIEW OFFER</span>
-                  </a>
-                </div>
-              </li>
-              <li class="list-jobs-item">
-                <div class="list-jobs-txt">
-                  <h2 class="list-jobs-title">RTB Internship</h2>
-                  <p class="list-jobs-description">For Mexico</p>
-                </div>
-                <div class="list-jobs-action">
-                  <a href="#" class="Button Button--outline Button--white Button--xsmall">
-                    <span>VIEW OFFER</span>
-                  </a>
-                </div>
+              <li>
+                <ul class="list-jobs">
+                  <li class="list-jobs-item">
+                    <div class="list-jobs-txt">
+                      <h2 class="list-jobs-title">Junior Designer</h2>
+                      <p class="list-jobs-description">For Mexico</p>
+                    </div>
+                    <div class="list-jobs-action">
+                      <a href="#" class="Button Button--outline Button--white Button--xsmall">
+                        <span>VIEW OFFER</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -287,6 +376,14 @@
         </div>
         <form class="form-Contact">
           <p class="form-txt-error">Oops, revisa los campos marcados en rojo por favor.</p>
+          <label class="form-Contact-item">
+             <select class="form-Contact-itemSelect" name="select">
+              <option value="value1" selected>Select an area</option> 
+              <option value="value2">Area 1</option>
+              <option value="value3">Area 2</option>
+            </select>
+          </label>
+
           <label class="form-Contact-item">
             <input class="form-Contact-itemInput" type="text" name="Name" placeholder="Type your name">
           </label>

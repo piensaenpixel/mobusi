@@ -11,8 +11,19 @@
 .is-grey-light {
   color: #7f7f7f;
 }
+.is-green {
+  color: #1BE4A9;
+}
 
 /* font-weight */
+
+.is-extraLight {
+  font-weight: 200;
+}
+
+.is-light {
+  font-weight: 300;
+}
 .is-light {
   font-weight: 300;
 }

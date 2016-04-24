@@ -5,6 +5,7 @@
   min-width: 270px;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
 }
   .Button--small {
     font: 15px/54px 'Open Sans';
