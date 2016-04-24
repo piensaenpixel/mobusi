@@ -181,6 +181,25 @@ video {
   background: none;
   color: #A9A9A9;
 }
+.form-Contact-itemSelect {
+  cursor: pointer;
+}
+.form-Contact-item--select {
+  position: relative;
+}
+.form-Contact-item--select:after {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  content:"⌃";
+  margin-top: -12px;
+  font: 16px 'Open Sans';
+  color: #A9A9A9;
+  transform: rotateX(180deg);
+  pointer-events: none;
+  cursor: pointer;
+}
+
 input.form-Contact-itemInput:focus,
 textarea.form-Contact-itemInput:focus, 
 select.form-Contact-itemSelect:focus {
