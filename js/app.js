@@ -5,6 +5,10 @@ $(document).ready(function () {
         dots: true,
         arrows: false
     });
+    $('.section-integrated-carousel').slick({
+        dots: true,
+        arrows: false
+    });
 
     
     $(window).scroll(function(){

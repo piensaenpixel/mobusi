@@ -1,18 +1,18 @@
 .Button {
   display: inline-block;
   border-radius: 4px;
-  font: 18px/70px 'Open Sans';
+  font: bold 18px/70px 'sofia-pro';
   min-width: 270px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
 }
   .Button--small {
-    font: 15px/54px 'Open Sans';
+    font: bold 15px/54px 'sofia-pro';
     min-width: 200px;
   }
   .Button--big {
-    font:bold 16px/70px 'Open Sans';
+    font:bold 16px/70px 'sofia-pro';
   }
   .Button--full {
     display: block;
@@ -20,7 +20,7 @@
     min-width: 100%;
   }
   .Button--xsmall {
-    font: 14px/50px 'Open Sans';
+    font: bold 14px/50px 'sofia-pro';
     min-width: 150px;
   }
 
