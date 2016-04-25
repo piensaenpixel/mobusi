@@ -635,10 +635,26 @@ select.form-Contact-itemSelect.is-error {
 .point {
   position: absolute;
   border-radius: 50%;
-  border: 2px solid #EB2224;
   background-color: #fff;
+  border: 2px solid #EB2224;
   width: 14px;
   height: 14px;
+}
+.point span {
+  opacity: 0;
+  font: 13px 'sofia-pro';
+  color: #E32123;
+  transition: opacity 300ms ease-in;
+  position: absolute;
+  right: -90px;
+  top: -16px;
+  max-width: 300px;
+}
+.point:hover {
+  cursor: pointer;
+}
+.point:hover span {
+  opacity: 1;
 }
 .point--fill {
   border: 4px solid #FBD3D3;
@@ -646,15 +662,43 @@ select.form-Contact-itemSelect.is-error {
   width: 18px;
   height: 18px;
 }
+
+
 .point--big {
-  transform: scale(2, 2)
+  border: 4px solid #EB2224;
+  width: 28px;
+  height: 28px;
 }
 .point--medium {
-  transform: scale(1.5, 1.5)
+  border: 3px solid #EB2224;
+  width: 21px;
+  height: 21px;
 }
 .point--extrabig {
-  transform: scale(2.5, 2.5)
+  border: 5px solid #EB2224;
+  width: 36px;
+  height: 36px;
 }
+
+
+.point--big.point--fill {
+  border: 8px solid #FBD3D3;
+  width: 36px;
+  height: 36px;
+}
+.point--medium.point--fill {
+  border: 6px solid #FBD3D3;
+  width: 27px;
+  height: 27px;
+}
+
+.point--extrabig.point--fill {
+  border: 10px solid #FBD3D3;
+  width: 42px;
+  height: 42px;
+}
+
+
 
 .section-integrated-inner {
   overflow: hidden;
