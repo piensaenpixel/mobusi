@@ -391,6 +391,12 @@ select.form-Contact-itemSelect.is-error {
   color: #fff;
   padding: 18px 0;
   border-bottom: 1px solid rgba(255, 255, 255, .20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.city-contact-item img {
+  margin-right: 12px;
 }
 
 /* video */
@@ -415,13 +421,14 @@ select.form-Contact-itemSelect.is-error {
   align-content: center;
   margin: 0 auto;
 }
-.section-video-startCircle > span {
+.section-video-startCircle > a {
   display: inline-block;
-  width: 90px;
   height: 90px;
+  width: 90px;
   background: #EB2224;
   border-radius: 50%;
   margin-top: 45px;
+  padding-top: 18px;
 }
 
 .section-top {
@@ -442,6 +449,10 @@ select.form-Contact-itemSelect.is-error {
   border-radius: 50%;
   background: #EB2224;
   margin-top: 25px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 63px;
 }
 
 /* last news */
@@ -713,4 +724,11 @@ select.form-Contact-itemSelect.is-error {
   margin: 0 20px 60px 20px;
 }
 
+.section-icon {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.section-icon img {
+  display: inline-block;
+}
 

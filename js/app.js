@@ -6,6 +6,11 @@ $(document).ready(function () {
       $('.navigation-dropdownItemText').toggleClass( "is-hide" );
     });
 
+    $(".navigation-languageLink" ).click(function() {
+      $('.navigation-language').toggleClass( "is-open" );
+    });
+
+
     $(document).on("scroll", onScroll);
     $('.jobs-carousel').slick({
         dots: true,
