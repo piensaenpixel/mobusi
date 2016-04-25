@@ -39,8 +39,22 @@
           <ul class="navigation-dropdown">
             <li class="navigation-dropdownItem is-login">
               <a href="#" class="navigation-dropdownItemLink">LOG IN</a>
-              <div class="navigation-dropdownItemText">
-                form login
+              <div class="navigation-dropdownItemText is-hide">
+                <form class="frm-login">
+                  <p class="form-txt-error">Oops, revisa los campos marcados en rojo por favor.</p>
+                  <label class="form-Contact-item">
+                    <input class="form-Contact-itemInput" type="email" name="Email" placeholder="Enter your email">
+                  </label>
+                  <label class="form-Contact-item">
+                    <input class="form-Contact-itemInput" type="password" name="password" placeholder="Enter your password">
+                  </label>
+                  <label>
+                    <button class="Button Button--fill Button--red Button--login">
+                      <span>Log in</span>
+                    </button>
+                  </label>
+                  <p class="frm-login-forgot"><a href="#">Forgot your password</a></p>
+                </form>
                 <a href="#" class="navigation-dropdownContact">Contact us for register</a>
               </div>
             </li>

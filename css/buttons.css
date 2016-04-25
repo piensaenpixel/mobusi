@@ -11,6 +11,11 @@
     font: bold 15px/54px 'sofia-pro';
     min-width: 200px;
   }
+  .Button--login {
+    font: bold 15px/45px 'sofia-pro';
+    min-width: 100%;
+    text-transform: none;
+  }
   .Button--big {
     font:bold 16px/70px 'sofia-pro';
   }

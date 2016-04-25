@@ -1,5 +1,11 @@
 
 $(document).ready(function () {
+
+    $(".navigation-dropdownItemLink" ).click(function() {
+      $(this).toggleClass( "is-open" );
+      $('.navigation-dropdownItemText').toggleClass( "is-hide" );
+    });
+
     $(document).on("scroll", onScroll);
     $('.jobs-carousel').slick({
         dots: true,
