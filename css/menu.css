@@ -151,7 +151,7 @@
     border-bottom-left-radius: 4px;
 }
 .navigation-dropdownItemText.is-hide {
-    display: none;
+    display: none
 }
 
 
@@ -162,7 +162,7 @@
     color: #000;
 }
 
-#header.is-down .navigation-dropdownItemText.is-open {
+#header.is-down .navigation-dropdownItemText {
     border: 5px solid rgba(0, 0, 0, .36);
 }
 #header.is-down .navigation-dropdownItemLink.is-open {
