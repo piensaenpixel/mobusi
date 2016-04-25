@@ -571,16 +571,29 @@ select.form-Contact-itemSelect.is-error {
 }
 
 .section-more {
-  padding: 220px 0;
-  background: #322338;
+  padding: 220px 0 111px 0;
+  background: #322338 url(../img/fnd-chica.png) no-repeat;
+  background-size: 100% auto;
   display: flex;
   justify-content: flex-end;
-
 }
+.section-more-media {
+  position: absolute;
+  left: 0;
+  bottom: 47px;
+}
+.section-more-bar {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+}
+
 .section-moreTxt {
   width: 50%;
   max-width: 50%;
   text-align: left;
+  position: relative;
+  z-index: 3;
 }
 
 .section-moreTitle {
