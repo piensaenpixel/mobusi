@@ -572,7 +572,7 @@ select.form-Contact-itemSelect.is-error {
 
 .section-more {
   padding: 220px 0 111px 0;
-  background: #322338 url(../img/fnd-chica.png) no-repeat;
+  background: #322338;
   background-size: 100% auto;
   display: flex;
   justify-content: flex-end;
@@ -586,6 +586,15 @@ select.form-Contact-itemSelect.is-error {
   position: absolute;
   right: 0;
   bottom: -3px;
+}
+.section-more-bg {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 150px;
+  background: url(../img/fnd-girl.svg) no-repeat;
+  background-size: cover;
 }
 
 .section-moreTxt {
