@@ -338,6 +338,9 @@ select.form-Contact-itemSelect.is-error {
   display: block;
   margin: 0 auto;
 }
+.section-last .section-last-media  {
+  height: 250px;
+}
 
 /* cities */
 .section-cities {
