@@ -4,6 +4,7 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>  
     <!-- carousel -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
@@ -26,7 +28,7 @@
   <body>
 
 
-    <header id="header">
+    <header id="header" class="u-hideMobile">
         <h1 class="header-logo"></h1>
         <nav class="header-nav">
           <ul class="navigation">
@@ -122,7 +124,7 @@
         </div>
       </section>
 
-      <div class="section-top">
+      <div class="section-top u-hideMobile">
         <a href="#" class="section-top-Link">⌃</a>
       </div>
 
@@ -267,9 +269,7 @@
 
 
       <section class="section section-more" id="more-than">
-        <div class="section-more-media"><img src="img/img-girl.png" /></div>
-        <div class="section-more-bar"><img src="img/barras.png" /></div>
-        <div class="section-more-bg"></div>
+
         <div class="section-moreTxt">
           <h2 class="section-moreTitle is-white">More than <span class="is-bold is-green">20.000 publishing partners</span> and <span class="is-bold is-white">5.000 advertisers</span> to date in Europe and South America.</h2>
 
@@ -277,19 +277,23 @@
             <span>More Info</span>
           </a>
         </div>
+        <div class="section-more-media"><img src="img/img-girl.png" class="img-fullMobile" /></div>
+        <div class="section-more-bar"><img src="img/barras.png" class="u-hideMobile" /></div>
+        <div class="section-more-bg"></div>
+
       </section>
 
 
       <section class="section section-publishers" id="publishers">
         <div class="section-icon">
-          <img src="img/icon-publishers.png" />
+          <img src="img/icon-publishers.png"  />
         </div>
         <h2 class="tit-Section"><span>Publishers</span></h2>
         <div class="u-inner">
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
         </div>
         <div class="section-publishers-inner">
-          <div class="section-publishers-media">
+          <div class="section-publishers-media u-hideMobile">
             <img src="img/publishers.png" />
           </div>
           <h3 class="number is-red section-publishers-figure is-extraBold">+20,000</h3>
@@ -357,7 +361,7 @@
               </a>
             </li>
           </ul>
-          <div class="section-lastNews-more">
+          <div class="section-lastNews-more u-hideMobile">
             <div class="section-lastNews-moreCircle">
               <a href="#">+</a>
             </div>
@@ -368,7 +372,7 @@
 
 
 
-      <section class="section section-team" id="team">
+      <section class="section section-team u-hideMobile" id="team">
         <div class="section-icon">
           <img src="img/icon-the-team.png" />
         </div>
@@ -388,9 +392,6 @@
           <p class="txt-Default is-grey">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
         </div>
         <div class="section-jobs section section--small">
-          <div class="section-jobs-media">
-            <img src="img/work-with-us-siluette.png" />
-          </div>
           <div class="u-inner section-jobs-txt">
             <ul class="jobs-carousel">
               <li>
@@ -527,6 +528,9 @@
                 </ul>
               </li>
             </ul>
+          </div>
+          <div class="section-jobs-media">
+            <img src="img/work-with-us-siluette.png" />
           </div>
         </div>
       </section>
