@@ -238,6 +238,7 @@ select.form-Contact-itemSelect.is-error {
   width: 560px;
   overflow: hidden;
   margin-left: -10px;
+  z-index: 10;
 }
 .jobs-carousel .slick-slide {
   padding: 0 10px;

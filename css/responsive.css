@@ -1,0 +1,254 @@
+@media(max-width: 640px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .u-hideMobile {
+        display: none !important;
+    }
+    #bgvid {
+        display: none;
+    }
+    .u-inner {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .list-3col {
+        margin: 0;
+        flex-direction: column;
+    }
+    .section-publishers-inner {
+        background: none;
+    }
+    .img-fullMobile {
+        max-width: 100%;
+        width: 100%;
+    }
+    .city-inner {
+        flex-direction: column;
+    }
+    .city-item {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 0;
+    }
+    .tit-Section {
+        font-size: 37px;
+        line-height: 58px;
+        margin-bottom: 20px;
+    }
+    .txt-Default--big {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .tit-Start {
+        font: bold 52px/72px 'sofia-pro';
+    }
+    .section--full {
+        min-height: 100vh;
+    }
+    .section-video-start {
+        bottom: 20px;
+    }
+    .section-video-startCircle {
+        transform: scale(0.5, 0.5);
+        transform-origin: bottom;
+    }
+    .section-video-startText {
+        margin-top: 20px;
+    }
+    .section-video-text {
+        margin-top: -50px; 
+    }
+    .section-last {
+        padding: 40px 0;
+    }
+    .number {
+        font-size: 120px;
+        line-height: 152px; 
+    }
+    .txt-Default--small {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .list-3col-item {
+        margin: 0;
+    }
+    .section-last .list-3col-item {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .section-last .list-3col-item:last-child{
+        margin-bottom: 0;
+    }
+    .section-last .section-last-media {
+        height: auto;
+    }
+    .section {
+        padding: 40px 20px;
+    }
+    .txt-Default {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-advertisers {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 120px;
+    }
+    .section-advertisers-inner {
+        background-size: 100%;
+        background-position: center 200px;
+    }
+    .section-advertisers-media {
+        margin-bottom: 0;
+    }
+    .section-advertisers-media img {
+        width: 100%;
+    }
+    .point {
+        transform: scale(.5, .5);
+        z-index: -1;
+    }
+    .section-advertisers-info {
+        margin-bottom: 40px;
+    }
+    .section-advertisers .number {
+        font-size: 62px;
+        line-height: 120px;
+        position: relative;
+    }
+    .section-integrated {
+        padding: 150px 0 40px 0;
+    }
+    .section-integrated-Circle {
+        top: -65px;
+    }
+    .section-more {
+        display: block;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .section-moreTxt {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .section-moreTitle {
+        font: 200 35px/44px 'sofia-pro';
+        margin-bottom: 60px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .section-more-media {
+        position: static;
+    }
+    .section-more-bg {
+        height: 35px
+    }
+    .section-publishers-figure {
+        font-size: 82px;
+        line-height: 120px;
+    }
+    .section-publishers-info {
+        margin-bottom: 40px; 
+    }
+    .section-lastNews {
+        background-size: auto 600px;
+        background-size: auto 600px;
+        padding: 125px 0 40px;
+    }
+    .section-lastNews .tit-Section {
+        margin-bottom: 40px
+    }
+    .list-3col--full .list-3col-item {
+        margin: 0;
+    }
+    .list-3col--full .list-news--margin {
+        margin: 0
+    }
+    .section-lastNews-inner .list-3col-item {
+        margin-bottom: 60px;
+    } 
+    .section-cities {
+        padding: 0;
+    }
+    .city-item-title {
+        font: 800 54px 'Open Sans';
+    }
+    .footer-links {
+        padding: 40px 0 0 0;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: block;
+    }
+    .footer-linksSocial {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .footer-inner {
+        padding: 80px 0;
+    }
+    .footer-linksSocialList {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .footer-linksSocialListItem {
+        margin: 0 0 10px 0;
+    }
+    .footer-linksSocial p {
+        margin: 0;
+    }
+    .footer-linksSocialListItem:last-child{
+        margin-bottom: 0;
+    }
+    .footer-copy {
+        border-top: 1px solid #27272D;
+        padding: 40px 0;
+        text-align: center;
+    } 
+    .section-jobs {
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-top: 40px;
+        padding-bottom: 0;
+    }
+    .section-jobs-media {
+        position: relative;
+        bottom: 0;
+        left: -280px;
+    }
+    .section-jobs-txt {
+        margin-bottom: -100px;
+    }
+    .jobs-carousel {
+        width:100%;
+        margin-left: 0
+    }
+    .jobs-carousel .slick-slide {
+        padding: 0;
+    }
+    .list-jobs {
+        width: 100%;
+    }
+    .list-jobs-item {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .list-jobs-txt {
+        width: 100%;
+        border: 0;
+        text-align: center;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .section-integrated-carouselContainer li {
+        margin: 0 0 20px 0;
+        width: 30%;
+    }
+    .section-integrated-carouselContainer li img {
+        width: 100%;
+    }
+}
