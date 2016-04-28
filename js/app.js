@@ -1,6 +1,12 @@
 
 $(document).ready(function () {
 
+
+    $(".Hamburguer" ).click(function() {
+      $(this).toggleClass( "is-active" );
+      $('.hdrMobile').toggleClass( "is-active" );
+    });
+
     $(".navigation-dropdownItemLink" ).click(function() {
       $(this).toggleClass( "is-open" );
       $('.navigation-dropdownItemText').toggleClass( "is-hide" );
@@ -27,17 +33,19 @@ $(document).ready(function () {
         var h = window.innerHeight;
         if(scrollPosition>h) {
             $('#header').addClass("is-down");
+            $('.Hamburguer').addClass("is-scroll");
         } else {
             $('#header').removeClass("is-down");
+            $('.Hamburguer').removeClass("is-scroll");
         }
     })
 
     //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
+    $('.navigation-item a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
         
-        $('a').each(function () {
+        $('.navigation-item a').each(function () {
             $(this).removeClass('is-active');
         })
         $(this).addClass('is-active');
@@ -61,10 +69,10 @@ function onScroll(event){
     var scrollPos = $(document).scrollTop();
 
     $('.navigation-item a').each(function () {
-        var currLink = $(this);
+        var currLink = $('navigation-itemLink');
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.navigation-item a').removeClass("is-active");
+            $('.navigation-item  a').removeClass("is-active");
             currLink.addClass("is-active");
         }
         else{

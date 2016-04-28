@@ -86,8 +86,49 @@
         width: 100%;
     }
 }
-
+@media(min-width: 641px) and (max-width: 980px) {
+    #header {
+        display: none;
+    }
+    .list-3col {
+        flex-direction: column;
+    }
+    .section-last .list-3col-item {
+        padding-top: 0;
+        margin-bottom: 60px;
+    }
+    .section-publishers-inner {
+        background-position: center 40%;
+    }
+    .tit-Start {
+        font: bold 70px/100px 'sofia-pro';
+    }
+    .section-publishers-info {
+        margin-bottom: 80px;
+    }
+    .list-news.list-3col--full .list-3col-item.news-item {
+        margin: 0 0 100px 0;
+    }
+    .list-news.list-3col--full .list-3col-item.news-item:last-child {
+        margin-bottom: 0;
+    }
+    .section-jobs-media {
+        position: static;
+    }
+    .section-jobs {
+        padding-bottom: 0;
+    }
+    .section.section--noPaddingBottom {
+        padding-bottom: 0;
+    }
+    .hdrMobile {
+        display: flex;
+    }
+}
 @media(max-width: 640px) {
+    .hdrMobile {
+        display: flex;
+    }
     main {
         width: 100%;
         overflow: hidden;
