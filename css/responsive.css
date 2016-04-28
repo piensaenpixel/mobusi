@@ -1,3 +1,92 @@
+@media(max-width: 1200px) {
+    .section-video-start {
+        bottom: 30px;
+    }
+    .section-video-text {
+        margin-top: -100px;
+    }
+    .section-video-startCircle {
+        transform: scale(.7, .7);
+        transform-origin: bottom;
+    }
+    .tit-Start {
+        font: bold 80px/110px 'sofia-pro';
+    }
+    .tit-Section {
+        font: bold 50px/71px 'sofia-pro';
+        margin: 0 auto 60px auto;
+    }
+    .section {
+        padding: 100px 0 140px 0;
+    }
+    .section-last {
+        padding-bottom: 200px;
+    }
+    .u-inner {
+        padding: 0 40px;
+    }
+    .section-last .list-3col-item {
+        padding-top: 20px;
+    }
+    .number {
+        font-size: 120px;
+        line-height: 176px;
+    }
+    .txt-Default--small {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .txt-Default {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .section-advertisers-inner {
+        margin-top: 60px;
+    }
+    .section-integrated {
+        padding-top: 300px;
+    }
+    .section-more-bar {
+        display: none;
+    }
+    .section-more {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .section-moreTxt {
+        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section-moreTitle {
+        padding-right: 0;
+    }
+    .section-more-media {
+        position: static;
+    }
+    .section-more-bar {
+        display: none;
+    }
+    .section-cities {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .section-team {
+        padding-top: 233px;
+    }
+    .section-lastNews {
+        padding-bottom: 200px;
+    }
+    .section-jobs-media {
+        right: -40%;
+    }
+    .section-publishers-media img {
+        width: 100%;
+    }
+}
+
 @media(max-width: 640px) {
     main {
         width: 100%;
