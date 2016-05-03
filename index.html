@@ -26,18 +26,30 @@
   </head>
 
   <body>
+
+
+
+
+
+
     <div id="header-mobile" class="hdrMobile">
-      <a href="#" class="Hamburguer">
-        <svg width="42px" height="42px" viewBox="0 0 42 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="menu" fill="#FFFFFF">
-                    <rect id="line1" x="0" y="0" width="42" height="3"></rect>
-                    <rect id="line3" x="0" y="26" width="42" height="3"></rect>
-                    <rect id="line2" x="0" y="13" width="32" height="3"></rect>
-                </g>
-            </g>
-        </svg>
-      </a>
+
+      <a href="#" class="hdrMobile-language js-language">EN</a>
+      <a href="#" class="hdrMobile-contact js-login">LOG IN</a>
+
+      <div class="Hambuguer-inner">
+        <a href="#" class="Hamburguer">
+          <svg width="42px" height="42px" viewBox="0 0 42 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="menu" fill="#FFFFFF">
+                      <rect id="line1" x="0" y="0" width="42" height="3"></rect>
+                      <rect id="line3" x="0" y="26" width="42" height="3"></rect>
+                      <rect id="line2" x="0" y="13" width="32" height="3"></rect>
+                  </g>
+              </g>
+          </svg>
+        </a>
+      </div>
       <ul class="navigation">
           <li class="navigation-item"><a class="navigation-itemLink is-active" href="#home">Home</a></li>
           <li class="navigation-item"><a href="#advertisers" class="navigation-itemLink">Advertisers</a></li>
@@ -46,6 +58,66 @@
           <li class="navigation-item"><a href="#" class="navigation-itemLink">Our Stats</a></li>
       </ul>
       
+
+      <div class="hdrMobile-languageInner">
+        <p class="hdrMobile-languageInfo">LANGUAGES</p>
+        <a href="#" class="hdrMobile-languageHamburguer">
+          <svg width="42px" height="42px" viewBox="0 0 42 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="menu" fill="#333">
+                      <rect id="line1" x="0" y="0" width="42" height="3"></rect>
+                      <rect id="line3" x="0" y="26" width="42" height="3"></rect>
+                      <rect id="line2" x="0" y="13" width="32" height="3"></rect>
+                  </g>
+              </g>
+          </svg>
+        </a>
+        <ul class="navigation">
+            <li class="navigation-item"><a class="navigation-itemLink is-active" href="#">Español</a></li>
+            <li class="navigation-item"><a href="#" class="navigation-itemLink">English</a></li>
+            <li class="navigation-item"><a href="#" class="navigation-itemLink">Français</a></li>
+            <li class="navigation-item"><a href="#" class="navigation-itemLink">Portugués</a></li>
+        </ul>
+      </div>
+
+
+      <div class="hdrMobile-contactInner">
+        <p class="hdrMobile-contactInfo">LOG IN</p>
+        <a href="#" class="hdrMobile-contactHamburguer">
+          <svg width="42px" height="42px" viewBox="0 0 42 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="menu" fill="#333">
+                      <rect id="line1" x="0" y="0" width="42" height="3"></rect>
+                      <rect id="line3" x="0" y="26" width="42" height="3"></rect>
+                      <rect id="line2" x="0" y="13" width="32" height="3"></rect>
+                  </g>
+              </g>
+          </svg>
+        </a>
+
+        <div class="navigation-dropdownItemText">
+          <form class="frm-login">
+            <p class="form-txt-error">Oops, revisa los campos marcados en rojo por favor.</p>
+            <label class="form-Contact-item">
+              <input class="form-Contact-itemInput" type="email" name="Email" placeholder="Enter your email">
+            </label>
+            <label class="form-Contact-item">
+              <input class="form-Contact-itemInput" type="password" name="password" placeholder="Enter your password">
+            </label>
+            <label>
+              <button class="Button Button--fill Button--red Button--login">
+                <span>Log in</span>
+              </button>
+            </label>
+            <p class="frm-login-forgot"><a href="#">Forgot your password</a></p>
+          </form>
+        </div>
+
+
+        <p class="hdrMobile-contactUs"><a href="#">Contact us for register</a></p>
+      </div>
+
+
     </div>
 
     <header id="header" class="u-hideMobile">

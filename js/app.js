@@ -7,6 +7,23 @@ $(document).ready(function () {
       $('.hdrMobile').toggleClass( "is-active" );
     });
 
+    $(".js-language" ).click(function() {
+      $('.hdrMobile').toggleClass( "is-language" );
+    });
+
+    $(".hdrMobile-languageHamburguer" ).click(function() {
+      $('.hdrMobile').toggleClass( "is-language" );
+    });
+
+    $(".js-login" ).click(function() {
+      $('.hdrMobile').toggleClass( "is-contact" );
+    });
+    
+    $(".hdrMobile-contactHamburguer" ).click(function() {
+      $('.hdrMobile').toggleClass( "is-contact" );
+    });
+
+
     $(".navigation-dropdownItemLink" ).click(function() {
       $(this).toggleClass( "is-open" );
       $('.navigation-dropdownItemText').toggleClass( "is-hide" );
@@ -33,10 +50,10 @@ $(document).ready(function () {
         var h = window.innerHeight;
         if(scrollPosition>h) {
             $('#header').addClass("is-down");
-            $('.Hamburguer').addClass("is-scroll");
+            $('.Hambuguer-inner').addClass("is-scroll");
         } else {
             $('#header').removeClass("is-down");
-            $('.Hamburguer').removeClass("is-scroll");
+            $('.Hambuguer-inner').removeClass("is-scroll");
         }
     })
 
