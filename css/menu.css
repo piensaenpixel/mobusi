@@ -264,7 +264,7 @@
     top: 0;
     padding: 20px;
     left: 0;
-    height: 85px;
+    height: 75px;
 }
 .Hambuguer-inner.is-scroll {
     background: rgba(255, 255, 255, .8);
@@ -329,18 +329,18 @@
     margin: 0;
 }
 .hdrMobile.is-active .navigation-itemLink {
-    font: 300 32px 'sofia-pro';
+    font: 300 20px 'sofia-pro';
     text-transform: none;
 }
 .Hambuguer-inner.is-scroll #menu {
-    fill: #666;
+    fill: #333;
 }
 
 .hdrMobile-language {
     position: absolute;
     top: 24px;
     left: 20px;
-    font: 300 22px 'sofia-pro';
+    font: 300 16px 'sofia-pro';
     color: #fff;
     text-decoration: none;
     z-index: 10;
@@ -394,11 +394,11 @@
     position: absolute;
     top: 17px;
     left: 50%;
-    margin-left: -56px;
+    margin-left: -48px;
     padding: 5px 21px;
     border: 1px solid #fff;
     border-radius: 2px;
-    font: 300 22px 'sofia-pro';
+    font: 300 16px 'sofia-pro';
     color: #fff;
     text-decoration: none;
     z-index: 10;
