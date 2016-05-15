@@ -271,15 +271,17 @@
 }
 .Hamburguer {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 10px;
+    top: 14px;
+    transform:scale(.7);
 }
 .hdrMobile-languageHamburguer, 
 .hdrMobile-contactHamburguer {
     position: absolute;
     z-index: 20;
-    right: 20px;
+    right: 14px;
     top: 20px;
+    transform: scale(0.7)
 }
 .Hamburguer #line1 {
     transform: rotate(0) translateY(0) translateX(0);
@@ -338,9 +340,9 @@
 
 .hdrMobile-language {
     position: absolute;
-    top: 24px;
+    top: 20px;
     left: 20px;
-    font: 300 16px 'sofia-pro';
+    font: 300 14px 'sofia-pro';
     color: #fff;
     text-decoration: none;
     z-index: 10;
@@ -388,17 +390,17 @@
     display: inline-block;
     vertical-align: middle;
     margin-left: 4px;
-    transform: rotate(180deg) translateY(5px);
+    transform: rotate(180deg) translateY(3px);
 }
 .hdrMobile-contact {
     position: absolute;
     top: 17px;
     left: 50%;
-    margin-left: -48px;
-    padding: 5px 21px;
+    margin-left: -39px;
+    padding: 2px 14px;
     border: 1px solid #fff;
     border-radius: 2px;
-    font: 300 16px 'sofia-pro';
+    font: 300 14px 'sofia-pro';
     color: #fff;
     text-decoration: none;
     z-index: 10;
