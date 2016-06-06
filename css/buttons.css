@@ -75,6 +75,19 @@
   }
 
 
+  /* button send */
+  .Button--send {
+    border: 1px solid #CDCDCD;
+    background: #fff
+  }
+  .Button--send span {
+    color: #12111A;
+  }
+  .Button--send:hover > span {
+    transition: color .3s;
+    color: #FD0000;
+  }
+
   /* button fill red */
   .Button--fill.Button--red {
     border: 1px solid #EB2224;

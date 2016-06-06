@@ -196,10 +196,11 @@ video {
   -webkit-transition: border 300ms ease-in;
   transition: border 300ms ease-in;
   background: none;
-  color: #A9A9A9;
+  color: #29262f;
 }
 .form-Contact-itemSelect {
   cursor: pointer;
+  color: #A8A8A8;
 }
 .form-Contact-item--select {
   position: relative;
@@ -384,10 +385,10 @@ select.form-Contact-itemSelect.is-error {
 }
 .city-inner {
   display: flex;
+  justify-content: center;
 }
 .city-item {
-  max-width: 50%;
-  width: 50%;
+  width: 400px;
   padding: 180px 0;
   position: relative;
 }
@@ -414,9 +415,17 @@ select.form-Contact-itemSelect.is-error {
   margin-right: -10px;
 }
 .city-direction {
-  font: 17px 'Open Sans';
-  margin-bottom: 24px;
+  font: 15px 'Open Sans';
+  margin-bottom: 17px;
   color: #fff;
+  min-height: 70px;
+}
+.city-direction-media {
+  width: 50px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+
 }
 .city-contact {
   border-top: 1px solid rgba(255, 255, 255, .20);
@@ -426,15 +435,13 @@ select.form-Contact-itemSelect.is-error {
 .city-contact-item {
   font: 17px 'Open Sans';
   color: #fff;
-  padding: 18px 0;
+  padding: 18px 0 18px 12px;
   border-bottom: 1px solid rgba(255, 255, 255, .20);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.city-contact-item img {
-  margin-right: 12px;
-}
+
 
 /* video */
 .section-video-start {
@@ -541,7 +548,8 @@ select.form-Contact-itemSelect.is-error {
 
 /* section work */
 .section--work {
-  padding-top: 220px
+  padding-top: 220px;
+  padding-bottom: 45px;
 }
 .section--work .section-icon {
   margin-bottom: 3px;
@@ -550,6 +558,14 @@ select.form-Contact-itemSelect.is-error {
   margin-bottom: 57px;
 }
 
+/* section contacto */
+.section--contact .section-icon {
+  margin-bottom: 2px;
+}
+.section--contact .txt-Default {
+  font-size: 24px;
+  line-height: 36px;
+}
 
 /* footer */
 .footer {
@@ -560,6 +576,12 @@ select.form-Contact-itemSelect.is-error {
   display: flex;
   padding: 110px 0;
   justify-content: center;
+}
+.footer-inner .header-logo {
+    width: 221px;
+    height: 65px;
+    background: url(../img/logo.png) 0 0;
+    background-size: 220px;
 }
 .footer-links {
   border-top: 1px solid #27272D;
