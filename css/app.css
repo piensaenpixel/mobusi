@@ -366,23 +366,11 @@ select.form-Contact-itemSelect.is-error {
 /* cities */
 .section-cities {
   padding: 0;
-}
-.section-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  background: url(../img/fnd-contact.jpg) no-repeat;
   background-size: cover;
-  background-repeat:  no-repeat;
   background-position: center center;
 }
-.section-image--madrid {
-  background-image: url(../img/madrid.jpg);
-}
-.section-image--mexico {
-  background-image: url(../img/mexico.jpg);
-}
+
 .city-inner {
   display: flex;
   justify-content: center;
@@ -395,16 +383,6 @@ select.form-Contact-itemSelect.is-error {
 .city-item-text {
   position: relative;
   z-index: 2;
-}
-.city-item:before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, .8);
-  z-index: 1;
 }
 .city-item-title {
   font: 800 60px 'Open Sans';
