@@ -15,7 +15,10 @@
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+
+
+
     <!-- carousel -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 
@@ -167,11 +170,11 @@
     </header>
     <main>
       <section class="section section--full section--video" id="home">
-          <video autoplay="" loop="" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid">
+          <video autoplay="yes" loop="yes" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" >
             <source src="videos/polina.webm" type="video/webm">
             <source src="videos/polina.mp4" type="video/mp4">
           </video>
-          <div class="section-video-text">
+          <div class="section-video-text" data-0="opacity: 1" data-500="opacity: 0">
             <h1 class="tit-Start is-white">Reach and Targeting</h1>
             <p class="txt-Default--big is-white is-light">Improve your ROI with our adserver</p>
           </div>
@@ -220,7 +223,7 @@
         <a href="#" class="section-top-Link">⌃</a>
       </div>
 
-      <section class="section section-advertisers" id="advertisers">
+      <section class="section section-advertisers" id="advertisers" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-advertisers.png" />
         </div>
@@ -320,7 +323,7 @@
       </section>
 
 
-      <section class="section section-integrated" id="integrated">
+      <section class="section section-integrated" id="integrated" data-type="background" data-speed="10">
         <div class="section-integrated-Circle">
           <span><img src="img/icon-integrated.png"/></span>
         </div>
@@ -360,7 +363,7 @@
       </section>
 
 
-      <section class="section section-more" id="more-than">
+      <section class="section section-more" id="more-than" data-type="background" data-speed="10">
 
         <div class="section-moreTxt">
           <h2 class="section-moreTitle is-white">More than <span class="is-bold is-green">20.000 publishing partners</span> and <span class="is-bold is-white">5.000 advertisers</span> to date in Europe and South America.</h2>
@@ -376,7 +379,7 @@
       </section>
 
 
-      <section class="section section-publishers" id="publishers">
+      <section class="section section-publishers" id="publishers" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-publishers.png"  />
         </div>
@@ -397,7 +400,7 @@
       </section>
 
 
-      <section class="section section-lastNews" id="last-news">
+      <section class="section section-lastNews" id="last-news" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-last-news.png" />
         </div>
@@ -464,7 +467,7 @@
 
 
 
-      <section class="section section-team u-hideMobile" id="team" style="display: none;">
+      <section class="section section-team u-hideMobile" id="team" style="display: none;" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-the-team.png" />
         </div>
@@ -475,7 +478,7 @@
       </section>
 
 
-      <section class="section section--work" id="work">
+      <section class="section section--work" id="work" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-the-team.png" />
         </div>
@@ -628,7 +631,7 @@
       </section>
 
 
-      <section class="section section--contact" id="contact">
+      <section class="section section--contact" id="contact" data-type="background" data-speed="10">
         <div class="section-icon">
           <img src="img/icon-contact.png" />
         </div>
@@ -668,7 +671,7 @@
       </section>
 
 
-      <section class="section section-cities">
+      <section class="section section-cities" data-type="background" data-speed="10">
         <ul class="city-inner">
           <li class="city-item">
             <div class="city-item-text">
@@ -752,6 +755,9 @@
       </footer>
 
     </main>
-
+    <script src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
   </body>
 </html>

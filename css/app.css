@@ -143,7 +143,7 @@
 
 /* video */
 video { 
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -345,6 +345,7 @@ select.form-Contact-itemSelect.is-error {
   padding-bottom: 280px;
   background-image: url(../img/last-month-bg.png);
   background-size: cover;
+  background-attachment: fixed;
 }
 .section-last .tit-Section {
   margin-bottom: 22px;
@@ -423,7 +424,7 @@ select.form-Contact-itemSelect.is-error {
 
 /* video */
 .section-video-start {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 50px;
