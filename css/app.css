@@ -254,13 +254,27 @@ select.form-Contact-itemSelect.is-error {
 .section-jobs-media {
   position: absolute;
   right: 0;
-  bottom: -1px;
+  bottom: 0;
+  overflow: hidden;
+  top: -144px;
+  left: 0;
 }
 .section-jobs-media img {
-  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.section-jobs-media img.ball {
+  right: 463px;
+  bottom: 52px;
+}
+.section-jobs-media img.square {
+  right: 257px;
+  bottom: -67px;
 }
 .section-jobs-txt {
   position: relative;
+  z-index: 10;
 }
 .list-jobs {
   width: 560px;
@@ -313,7 +327,9 @@ select.form-Contact-itemSelect.is-error {
   font: 23px 'sofia-pro';
 }
 .section-publishers-inner {
-  background: url(../img/publishers-map.png) no-repeat center 483px;
+  background: url(../img/fnd-publishers.png) no-repeat center top;
+  padding-top: 793px;
+  margin-top: 97px;
 }
 
 /* advertirsers */
@@ -325,7 +341,8 @@ select.form-Contact-itemSelect.is-error {
 }
 .section-advertisers-inner {
   margin-top: 100px;
-  background: url(../img/advertisers-map.png) no-repeat center 283px;
+  padding-top: 600px;
+  background: url(../img/fnd-advertisers.png) no-repeat center top;
   position: relative;
 }
 .section-advertisers-media {

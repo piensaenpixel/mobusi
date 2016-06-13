@@ -96,6 +96,7 @@ $(document).ready(function () {
 
 });
 
+
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('.navigation-item a').each(function () {
@@ -110,7 +111,5 @@ function onScroll(event){
         }
     });
 }
-
-
 
 
