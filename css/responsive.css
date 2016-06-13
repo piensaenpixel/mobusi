@@ -292,6 +292,9 @@
     .section-lastNews .tit-Section {
         margin-bottom: 40px
     }
+    .section-lastNews .u-inner {
+        padding: 0;
+    }
     .list-3col--full .list-3col-item {
         margin: 0;
     }
