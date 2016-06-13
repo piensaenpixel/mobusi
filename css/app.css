@@ -370,6 +370,7 @@ select.form-Contact-itemSelect.is-error {
   background: url(../img/fnd-contact.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  padding-bottom: 63px;
 }
 
 .city-inner {
@@ -378,7 +379,7 @@ select.form-Contact-itemSelect.is-error {
 }
 .city-item {
   width: 400px;
-  padding: 180px 0;
+  padding: 180px 0 63px;
   position: relative;
 }
 .city-item-text {
@@ -421,6 +422,29 @@ select.form-Contact-itemSelect.is-error {
   justify-content: flex-start;
 }
 
+
+.section-citiesMore {
+  font: 13px 'Open Sans';
+  text-align: center;
+}
+.section-citiesMoreTitle {
+  color: #808080;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.section-citiesMoreList {
+  font: 13px 'Open Sans';
+  display: flex;
+  justify-content: center;
+}
+.section-citiesMoreList li {
+  margin-right: 35px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.section-citiesMoreList li:last-child {
+  margin-right: 0;
+}
 
 /* video */
 .section-video-start {
