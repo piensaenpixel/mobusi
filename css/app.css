@@ -672,10 +672,27 @@ select.form-Contact-itemSelect.is-error {
   display: flex;
   justify-content: flex-end;
 }
-.section-more-media {
+
+.section-more img {
   position: absolute;
   left: 0;
-  bottom: 47px;
+  bottom: 0;
+}
+.section-more img.poly {
+  bottom: -120px;
+}
+.section-more img.barras02 {
+  left: -248px;
+  bottom: -155px;
+}
+.section-more img.barras01 {
+  bottom: 229px;
+}
+.section-more img.bola {
+  left: 500px;
+}
+.o-hidden {
+  overflow: hidden;
 }
 .section-more-bar {
   position: absolute;
