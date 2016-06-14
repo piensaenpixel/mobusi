@@ -106,16 +106,16 @@
 
   /* button fill purple */
   .Button--fill.Button--purple {
-    border: 1px solid #322338;
     background: #322338;
   }
   .Button--fill.Button--purple span {
     color: #fff;
   }
   .Button--fill.Button--purple:hover {
-    border: 1px solid #322338;
-    background: #fff;
+    background: #EB2224;
+    transition: background 200ms;
+    cursor: pointer;
   }
   .Button--fill.Button--purple:hover > span {
-    color: #322338;
+    color: #fff;
   }
