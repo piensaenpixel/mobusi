@@ -148,7 +148,9 @@
         flex-direction: column;
     }
     .section-publishers-inner {
-        background: none;
+        margin-top: 40px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
     .img-fullMobile {
         max-width: 100%;
@@ -176,6 +178,10 @@
     }
     .section--full {
         min-height: 100vh;
+    }
+    .section--video {
+        background: url(../img/video-splash.jpg) no-repeat center center;
+        background-size: cover;
     }
     .section-video-start {
         bottom: 20px;
@@ -227,8 +233,8 @@
         padding-bottom: 120px;
     }
     .section-advertisers-inner {
-        background-size: 100%;
-        background-position: center 200px;
+        margin-top: 0;
+        background-position: center center;
     }
     .section-advertisers-media {
         margin-bottom: 0;
@@ -252,13 +258,13 @@
         padding: 150px 0 40px 0;
     }
     .section-integrated-Circle {
-        top: -65px;
+        top: -50px;
     }
     .section-more {
         display: block;
         padding-right: 0;
         padding-left: 0;
-        padding-bottom: 0;
+        padding-bottom: 184px;
     }
     .section-moreTxt {
         width: 100%;
@@ -354,7 +360,7 @@
         left: -280px;
     }
     .section-jobs-txt {
-        margin-bottom: -100px;
+        padding: 0 0 60px 0;
     }
     .jobs-carousel {
         width:100%;
@@ -384,4 +390,25 @@
     .section-integrated-carouselContainer li img {
         width: 100%;
     }
+    .section-citiesMoreList {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .section-citiesMoreList li {
+        margin: 0 0 20px 0;
+    }
+    .section--contact {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .section-more-bg {
+        height: 70px;
+    }
+    .section-more img {
+        display: none;
+    }
+    .o-hidden {
+        overflow: visible;
+    }
+
 }

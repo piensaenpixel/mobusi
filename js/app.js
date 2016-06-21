@@ -77,27 +77,7 @@ $(document).ready(function () {
             $(document).on("scroll", onScroll);
         });
     });
-
-
-    $('section[data-type="background"]').each(function(){
-        var $bgobj = $(this); // assigning the object
-    
-        $(document).scroll(function() {
-            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
-            
-            // Put together our final background position
-            var coords = '50% '+ yPos + 'px';
-
-            // Move the background
-            $bgobj.css({ backgroundPosition: coords });
-        }); 
-    });  
-
-
-});
-
-
-function onScroll(event){
+    function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('.navigation-item a').each(function () {
         var currLink = $('navigation-itemLink');
@@ -111,5 +91,10 @@ function onScroll(event){
         }
     });
 }
+
+});
+
+
+
 
 

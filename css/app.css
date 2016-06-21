@@ -1,3 +1,7 @@
+body {
+  height: auto !important;
+}
+
 .header {
   background: rgba(255, 255, 255, .5);
   display: none;
@@ -502,7 +506,7 @@ select.form-Contact-itemSelect.is-error {
   bottom: 40px;
   width: 100px;
   height: 100px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(178, 178, 178, 0.20);
   border-radius: 50%;
   text-align: center;
   z-index: 2;
