@@ -327,8 +327,10 @@ select.form-Contact-itemSelect.is-error {
   margin: 0 auto;
 }
 .section-publishers-info {
-  margin-bottom: 194px;
+  margin-bottom: 134px;
   font: 23px 'sofia-pro';
+  padding-bottom: 60px;
+  background: url(../img/ball.svg) no-repeat center bottom;
 }
 .section-publishers-inner {
   background: url(../img/fnd-publishers.png) no-repeat center top;
@@ -357,8 +359,10 @@ select.form-Contact-itemSelect.is-error {
   margin: 0 auto;
 }
 .section-advertisers-info {
-  margin-bottom: 150px;
+  margin-bottom: 90px;
   font: 23px 'sofia-pro';
+  padding-bottom: 60px;
+  background: url(../img/ball.svg) no-repeat center bottom;
 }
 
 /* last */
