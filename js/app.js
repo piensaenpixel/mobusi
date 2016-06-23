@@ -35,13 +35,16 @@ $(document).ready(function () {
     });
 
 
-    $(".navigation-dropdownItemLink" ).click(function() {
+    $('.navigation-dropdownItemLink').on('click', function (e) {
       $(this).toggleClass( "is-open" );
       $('.navigation-dropdownItemText').toggleClass( "is-hide" );
+        e.preventDefault();
     });
 
-    $(".navigation-languageLink" ).click(function() {
+
+    $('.navigation-languageLink').on('click', function (e) {
       $('.navigation-language').toggleClass( "is-open" );
+        e.preventDefault();
     });
 
 
