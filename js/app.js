@@ -1,11 +1,22 @@
 
 $(document).ready(function () {
 
-
-    $(".Hamburguer" ).click(function() {
-      $(this).toggleClass( "is-active" );
-      $('.hdrMobile').toggleClass( "is-active" );
+    $('.Hamburguer').on('click', function (e) {
+        $(this).toggleClass( "is-active" );
+        $('.hdrMobile').toggleClass( "is-active" );
+        $('body').toggleClass( "noscroll" );
+        var scrollPosition = $(document).scrollTop();
+        var h = window.innerHeight;
+        if(scrollPosition>h) {
+            $('.Hambuguer-inner').toggleClass( "is-scroll" );
+        }
+        e.preventDefault();
     });
+
+
+
+
+
 
     $(".js-language" ).click(function() {
       $('.hdrMobile').toggleClass( "is-language" );
@@ -34,15 +45,31 @@ $(document).ready(function () {
     });
 
 
+    $('#header-mobile .navigation-itemLink').on('click', function (e) {
+        $('.hdrMobile').toggleClass( "is-active" );
+        $('body').toggleClass( "noscroll" );
+        $('#header-mobile .Hamburguer').toggleClass( "is-active" );
+        e.preventDefault();
+    });
+
+    var aChildren = $(".u-hideMobile .navigation-item").children(); // find the a children of the list items
+    var aArray = []; // create the empty aArray
+    for (var i=0; i < aChildren.length; i++) {    
+        var aChild = aChildren[i];
+        var ahref = $(aChild).attr('href');
+        aArray.push(ahref);
+    } // this for loop fills the aArray with attribute href values
+
+
     $(document).on("scroll", onScroll);
-    $('.jobs-carousel').slick({
-        dots: true,
-        arrows: false
-    });
-    $('.section-integrated-carousel').slick({
-        dots: true,
-        arrows: false
-    });
+        $('.jobs-carousel').slick({
+            dots: true,
+            arrows: false
+        });
+        $('.section-integrated-carousel').slick({
+            dots: true,
+            arrows: false
+        });
 
     
     $(window).scroll(function(){
@@ -54,16 +81,31 @@ $(document).ready(function () {
         } else {
             $('#header').removeClass("is-down");
             $('.Hambuguer-inner').removeClass("is-scroll");
+        };
+
+        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
+        var windowHeight = $(window).height(); // get the height of the window
+        var docHeight = $(document).height();
+
+        for (var i=0; i < aArray.length; i++) {
+            var theID = aArray[i];
+            var divPos = $(theID).offset().top; // get the offset of the div from the top of page
+            var divHeight = $(theID).height(); // get the height of the div in question
+            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+                $("a[href='" + theID + "']").addClass("is-active");
+            } else {
+                $("a[href='" + theID + "']").removeClass("is-active");
+            }
         }
+
+
+
     })
 
     //smoothscroll
     $('.navigation-item a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
         $(document).off("scroll");
-        
         $('.navigation-item a').each(function () {
-            $(this).removeClass('is-active');
         })
         $(this).addClass('is-active');
       
@@ -76,25 +118,12 @@ $(document).ready(function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
+        e.preventDefault();
     });
-    function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('.navigation-item a').each(function () {
-        var currLink = $('navigation-itemLink');
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.navigation-item  a').removeClass("is-active");
-            currLink.addClass("is-active");
-        }
-        else{
-            currLink.removeClass("is-active");
-        }
-    });
-}
+
 
 });
 
-
-
-
-
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+}
