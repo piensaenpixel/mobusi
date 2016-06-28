@@ -91,11 +91,14 @@ body.noscroll{
 .news-media {
   margin-bottom: 50px;
   position: relative;
+  max-height: 278px;
+  min-height: 278px;
+  overflow: hidden;
 }
 .news-media-author {
   position: absolute;
   left: 50%;
-  bottom: -50px;
+  top: 220px;
   margin-left: -50px;
 }
 .news-media-author img {
@@ -407,7 +410,7 @@ select.form-Contact-itemSelect.is-error {
 }
 .city-item {
   width: 400px;
-  padding: 180px 0 63px;
+  padding: 0 0 63px;
   position: relative;
 }
 .city-item-text {
@@ -543,7 +546,7 @@ select.form-Contact-itemSelect.is-error {
 }
 .section-lastNews-more {
   position: absolute;
-  bottom: -372px;
+  bottom: -127px;
   left: 50%;
   margin-left: -88px;
 }
