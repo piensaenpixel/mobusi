@@ -41,7 +41,6 @@ body.noscroll{
   align-items: center;
   justify-content: center;
   background: #666;
-  z-index: 3;
   overflow: hidden;
 }
 .section--video:before {

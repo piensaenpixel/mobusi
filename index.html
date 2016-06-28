@@ -172,7 +172,7 @@
     </header>
     <main>
       <section class="section section--full section--video" id="home">
-          <video data-0="position-fixed" data-end="position-static" autoplay="yes" loop="yes" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" >
+          <video autoplay="yes" loop="yes" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" >
             <source src="videos/polina.webm" type="video/webm">
             <source src="videos/polina.mp4" type="video/mp4">
           </video>
@@ -700,9 +700,24 @@
       </footer>
 
     </main>
-    <script src="js/skrollr.min.js"></script>
-    <script type="text/javascript">
-      var s = skrollr.init();
+
+    <script>
+        var width = window.innerWidth
+        || document.documentElement.clientWidth
+        || document.body.clientWidth;
+
+        if ( width > 600) {
+        document.write('<script src="js/skrollr.min.js""><\/script>');
+        }
+      (jQuery);
+    </script>
+    <script>
+      (function ($) {
+        if ($(window).width() >= 759) {;
+            var s = skrollr.init();
+        }
+      })
+      (jQuery);
     </script>
   </body>
 </html>
