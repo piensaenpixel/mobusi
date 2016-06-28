@@ -117,7 +117,7 @@ $(document).ready(function () {
         $target = $(target);
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top+2
-        }, 500, 'swing', function () {
+        }, 2000, 'easeOutCubic', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
         });

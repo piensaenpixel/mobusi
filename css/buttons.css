@@ -32,6 +32,7 @@
   /* button red */
   .Button--red {
     border: 1px solid #EB2224;
+    transition: background 400ms;
   }
   .Button--red span {
     color: #EB2224;
@@ -69,6 +70,7 @@
   .Button--white:hover {
     border: 1px solid #EB2224;
     background: #EB2224;
+    transition: background 200ms;
   }
   .Button--white:hover > span {
     color: #fff;
