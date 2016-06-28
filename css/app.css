@@ -1,10 +1,7 @@
 body {
   height: auto !important;
 }
-body.noscroll{
-    position:fixed;
-    overflow:hidden;
-}
+
 
 .header {
   background: rgba(255, 255, 255, .5);
